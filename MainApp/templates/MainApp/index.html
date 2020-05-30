@@ -1,0 +1,1079 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+      <!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="{% static "MainApp/img/fav.png" %}">
+		<!-- Author Meta -->
+		<meta name="author" content="colorlib">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Macro</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" type="text/css" href="{% static 'MainApp/css/linearicons.css'%}">
+			<link rel="stylesheet" type="text/css" href="{% static 'MainApp/css/font-awesome.min.css' %}">
+			<link rel="stylesheet" type="text/css" href="{% static 'MainApp/css/bootstrap.css'%}">
+			<link rel="stylesheet" type="text/css" href="{% static 'MainApp/css/magnific-popup.css'%}">
+			<link rel="stylesheet" type="text/css" href="{% static 'MainApp/css/jquery-ui.css'%}">
+			<link rel="stylesheet" type="text/css" href="{% static 'MainApp/css/nice-select.css'%}">
+			<link rel="stylesheet" type="text/css" href="{% static 'MainApp/css/animate.min.css'%}">
+			<link rel="stylesheet" type="text/css" href="{% static 'MainApp/css/owl.carousel.css'%}">
+			<link rel="stylesheet" type="text/css" href="{% static 'MainApp/css/main.css'%}" >
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  </head>
+  <body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="\">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/login">Login</a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link" href="/register">Register</a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="/register">Login for restaurant user only</a>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>
+</div>
+			<!-- start banner Area -->
+			<section class="banner-area">
+				<div class="container">
+					<div class="row fullscreen align-items-center justify-content-between">
+						<div class="col-lg-12 banner-content">
+							<h6 class="text-white">Wide Options of Choice</h6>
+							<h1 class="text-white">Delicious Recipes</h1>
+							<p class="text-white">
+								inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women.
+							</p>
+							<a href="#" class="primary-btn text-uppercase">Check Our Menu</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->
+
+			<!-- Start home-about Area -->
+			<section class="home-about-area section-gap">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-6 home-about-left">
+							<h1>About Our Story</h1>
+							<p>
+								Who are in extremely love with eco friendly system. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							</p>
+							<a href="#" class="primary-btn">view full menu</a>
+						</div>
+						<div class="col-lg-6 home-about-right">
+							<img class="img-fluid" src="{% static "MainApp/img/about-img.jpg" %}"alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End home-about Area -->
+
+			<!-- Start menu-area Area -->
+            <section class="menu-area section-gap" id="menu">
+                <div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-70 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">What kind of Foods we serve for you</h1>
+								<p>Who are in extremely love with eco friendly system.</p>
+							</div>
+						</div>
+					</div>
+
+                    <ul class="filter-wrap filters col-lg-12 no-padding">
+                        <li class="active" data-filter="*">All Menu</li>
+                        <li data-filter=".breakfast">Breakfast</li>
+                        <li data-filter=".lunch">Lunch</li>
+                        <li data-filter=".dinner">Dinner</li>
+                        <li data-filter=".budget-meal">Budget Meal</li>
+                        <li data-filter=".buffet">Buffet</li>
+                    </ul>
+
+                    <div class="filters-content">
+                        <div class="row grid">
+                            <div class="col-md-6 all breakfast">
+								<div class="single-menu">
+									<div class="title-wrap d-flex justify-content-between">
+										<h4>Cappuccion</h4>
+										<h4 class="price">$49</h4>
+									</div>
+									<p>
+										Usage of the Internet is becoming more common due to rapid advance.
+									</p>
+								</div>
+                            </div>
+                            <div class="col-md-6 all dinner">
+								<div class="single-menu">
+									<div class="title-wrap d-flex justify-content-between">
+										<h4>Americano</h4>
+										<h4 class="price">$49</h4>
+									</div>
+									<p>
+										Usage of the Internet is becoming more common due to rapid advance.
+									</p>
+								</div>
+                            </div>
+                            <div class="col-md-6 all budget-meal">
+								<div class="single-menu">
+									<div class="title-wrap d-flex justify-content-between">
+										<h4>Macchiato</h4>
+										<h4 class="price">$49</h4>
+									</div>
+									<p>
+										Usage of the Internet is becoming more common due to rapid advance.
+									</p>
+								</div>
+                            </div>
+                            <div class="col-md-6 all breakfast">
+								<div class="single-menu">
+									<div class="title-wrap d-flex justify-content-between">
+										<h4>Mocha</h4>
+										<h4 class="price">$49</h4>
+									</div>
+									<p>
+										Usage of the Internet is becoming more common due to rapid advance.
+									</p>
+								</div>
+                            </div>
+                            <div class="col-md-6 all lunch">
+								<div class="single-menu">
+									<div class="title-wrap d-flex justify-content-between">
+										<h4>Piccolo Latte</h4>
+										<h4 class="price">$49</h4>
+									</div>
+									<p>
+										Usage of the Internet is becoming more common due to rapid advance.
+									</p>
+								</div>
+                            </div>
+                            <div class="col-md-6 all buffet">
+								<div class="single-menu">
+									<div class="title-wrap d-flex justify-content-between">
+										<h4>Ristretto</h4>
+										<h4 class="price">$49</h4>
+									</div>
+									<p>
+										Usage of the Internet is becoming more common due to rapid advance.
+									</p>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- End menu-area Area -->
+
+			<!-- Start reservation Area -->
+			<section class="reservation-area section-gap relative">
+				<div class="overlay overlay-bg"></div>
+				<div class="container">
+					<div class="row justify-content-between align-items-center">
+						<div class="col-lg-6 reservation-left">
+							<h1 class="text-white">Reserve Your Seats
+							to Confirm if You Come
+							with Your Family</h1>
+							<p class="text-white pt-20">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
+							</p>
+						</div>
+						<div class="col-lg-5 reservation-right">
+							<form class="form-wrap text-center" action="#">
+								<input type="text" class="form-control" name="name" placeholder="Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'" >
+								<input type="email" class="form-control" name="email" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address'" >
+								<input type="text" class="form-control" name="phone" placeholder="Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'" >
+								<input type="text" class="form-control date-picker" name="date" placeholder="Select Date & time" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Select Date & time'" >
+								<div class="form-select" id="service-select">
+									<select>
+										<option data-display="">Select Event</option>
+										<option value="1">Event One</option>
+										<option value="2">Event Two</option>
+										<option value="3">Event Three</option>
+										<option value="4">Event Four</option>
+									</select>
+								</div>
+								<button class="primary-btn text-uppercase mt-20">Make Reservation</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End reservation Area -->
+
+			<!-- Start gallery-area Area -->
+            <section class="gallery-area section-gap" id="gallery">
+                <div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-70 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">Food and Customer Gallery</h1>
+								<p>Who are in extremely love with eco friendly system.</p>
+							</div>
+						</div>
+					</div>
+
+                    <ul class="filter-wrap filters col-lg-12 no-padding">
+                        <li class="active" data-filter="*">All Menu</li>
+                        <li data-filter=".breakfast">Breakfast</li>
+                        <li data-filter=".lunch">Lunch</li>
+                        <li data-filter=".dinner">Dinner</li>
+                        <li data-filter=".budget-meal">Budget Meal</li>
+                        <li data-filter=".buffet">Buffet</li>
+                    </ul>
+
+
+                    <div class="filters-content">
+                        <div class="row grid">
+                            <div class="col-lg-4 col-md-6 col-sm-6 all breakfast">
+                            	<div class="single-gallery">
+                            		<img class="img-fluid" src="{% static "MainApp/img/g1.jpg" %}" alt="">
+                            	</div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 all dinner">
+                            	<div class="single-gallery">
+                            		<img class="img-fluid" src="{% static "MainApp/img/g2.jpg" %}" alt="">
+                            	</div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 all budget-meal">
+                            	<div class="single-gallery">
+                            		<img class="img-fluid" src="{% static "MainApp/img/g3.jpg" %}" alt="">
+                            	</div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 all breakfast">
+                            	<div class="single-gallery">
+                            		<img class="img-fluid" src="{% static "MainApp/img/g4.jpg" %}" alt="">
+                            	</div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 all lunch">
+                            	<div class="single-gallery">
+                            		<img class="img-fluid" src="{% static "MainApp/img/g5.jpg" %}" alt="">
+                            	</div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 all buffet">
+                            	<div class="single-gallery">
+                            		<img class="img-fluid" src="{% static "MainApp/img/g6.jpg" %}" alt="">
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- End gallery-area Area -->
+
+			<!-- Start review Area -->
+			<section class="review-area section-gap">
+				<div class="container">
+					<div class="row">
+						<div class="active-review-carusel">
+							<div class="single-review">
+								<img src="{% static "MainApp/img/user.png" %}" alt="">
+								<h4>Hulda Sutton</h4>
+								<div class="star">
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star"></span>
+								</div>
+								<p>
+									“Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.”
+								</p>
+							</div>
+							<div class="single-review">
+								<img src="{% static "MainApp/img/user.png" %}" alt="">
+								<h4>Hulda Sutton</h4>
+								<div class="star">
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star"></span>
+								</div>
+								<p>
+									“Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.”
+								</p>
+							</div>
+							<div class="single-review">
+								<img src="{% static "MainApp/img/user.png" %}" alt="">
+								<h4>Hulda Sutton</h4>
+								<div class="star">
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star"></span>
+								</div>
+								<p>
+									“Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.”
+								</p>
+							</div>
+							<div class="single-review">
+								<img src="{% static "MainApp/img/user.png" %}" alt="">
+								<h4>Hulda Sutton</h4>
+								<div class="star">
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star"></span>
+								</div>
+								<p>
+									“Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.”
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End review Area -->
+
+			<!-- Start blog Area -->
+			<section class="blog-area section-gap" id="blog">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-70 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">Latest From Our Blog</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-6 col-sm-6 single-blog">
+							<div class="thumb">
+								<img class="img-fluid" src="{% static "MainApp/img/b1.jpg" %}" alt="">
+							</div>
+							<p class="date">10 Jan 2018</p>
+							<a href="blog-single.html"><h4>Cooking Perfect Fried Rice
+							in minutes</h4></a>
+							<p>
+								inappropriate behavior ipsum dolor sit amet, consectetur.
+							</p>
+							<div class="meta-bottom d-flex justify-content-between">
+								<p><span class="lnr lnr-heart"></span> 15 Likes</p>
+								<p><span class="lnr lnr-bubble"></span> 02 Comments</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 single-blog">
+							<div class="thumb">
+								<img class="img-fluid" src="{% static "MainApp/img/b2.jpg" %}" alt="">
+							</div>
+							<p class="date">10 Jan 2018</p>
+							<a href="blog-single.html"><h4>Secret of making Heart
+							Shaped eggs</h4></a>
+							<p>
+								inappropriate behavior ipsum dolor sit amet, consectetur.
+							</p>
+							<div class="meta-bottom d-flex justify-content-between">
+								<p><span class="lnr lnr-heart"></span> 15 Likes</p>
+								<p><span class="lnr lnr-bubble"></span> 02 Comments</p>
+							</div>
+						</div>
+<!--						<img src="{% static "my_app/example.jpg" %}" alt="My image">-->
+						<div class="col-lg-3 col-md-6 col-sm-6 single-blog">
+							<div class="thumb">
+								<img class="img-fluid" src="{% static "MainApp/img/b3.jpg" %}"alt="kuttttttttttttttttttttttttttttt">
+							</div>
+							<p class="date">10 Jan 2018</p>
+							<a href="blog-single.html"><h4>How to check steak if
+							it is tender or not</h4></a>
+							<p>
+								inappropriate behavior ipsum dolor sit amet, consectetur.
+							</p>
+							<div class="meta-bottom d-flex justify-content-between">
+								<p><span class="lnr lnr-heart"></span> 15 Likes</p>
+								<p><span class="lnr lnr-bubble"></span> 02 Comments</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 single-blog">
+							<div class="thumb">
+								<img class="img-fluid" src="{% static "MainApp/img/b4.jpg" %}" alt="">
+							</div>
+							<p class="date">10 Jan 2018</p>
+							<a href="blog-single.html"><h4>Seaseme and black seed
+							Flavored Bun Rocks</h4></a>
+							<p>
+								inappropriate behavior ipsum dolor sit amet, consectetur.
+							</p>
+							<div class="meta-bottom d-flex justify-content-between">
+								<p><span class="lnr lnr-heart"></span> 15 Likes</p>
+								<p><span class="lnr lnr-bubble"></span> 02 Comments</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End blog Area -->
+
+			<!-- start footer Area -->
+
+			<!-- End footer Area -->
+
+			<script src="{% static 'MainApp/js/vendor/jquery-2.2.4.min.js' %}"></script>
+			<script src="{% static 'MainApp/js/popper.min.js' %}"></script>
+			<script src="{% static 'MainApp/js/vendor/bootstrap.min.js' %}"></script>
+			<script src="{% static 'MainApp/https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA' %}"></script>
+ 			<script src="{% static 'MainApp/js/jquery-ui.js' %}"></script>
+  			<script src="{% static 'MainApp/js/easing.min.js' %}"></script>
+			<script src="{% static 'MainApp/js/hoverIntent.js' %}"></script>
+			<script src="{% static 'MainApp/js/superfish.min.js' %}"></script>
+			<script src="{% static 'MainApp/js/jquery.ajaxchimp.min.js' %}"></script>
+			<script src="{% static 'MainApp/js/jquery.magnific-popup.min.js' %}"></script>
+			<script src="{% static 'MainApp/js/jquery.nice-select.min.js' %}"></script>
+			<script src="{% static 'MainApp/js/owl.carousel.min.js' %}"></script>
+            <script src="{% static 'MainApp/js/isotope.pkgd.min.js' %}"></script>
+			<script src="{% static 'MainApp/js/mail-script.js' %}"></script>
+			<script src="{% static 'MainApp/js/main.js' %}"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--  <head>-->
+<!--    &lt;!&ndash; Required meta tags &ndash;&gt;-->
+<!--    <meta charset="utf-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+
+<!--    &lt;!&ndash; Bootstrap CSS &ndash;&gt;-->
+<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">-->
+
+<!--    <title>tiffin service</title>-->
+<!--  </head>-->
+<!--  <body style="">-->
+<!--<nav class="navbar navbar-expand-lg navbar-light bg-light">-->
+<!--  <a class="navbar-brand" href="#">Home</a>-->
+<!--  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--    <span class="navbar-toggler-icon"></span>-->
+<!--  </button>-->
+<!--  <div class="collapse navbar-collapse" id="navbarNav">-->
+<!--    <ul class="navbar-nav">-->
+<!--      <li class="nav-item active">-->
+<!--        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>-->
+<!--      </li>-->
+<!--      <li class="nav-item">-->
+<!--        <a class="nav-link" href="#">Menu</a>-->
+<!--      </li>-->
+<!--      <li class="nav-item">-->
+<!--        <a class="nav-link" href="#">Gallery</a>-->
+<!--      </li>-->
+<!--      <li class="nav-item">-->
+<!--        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
+<!--      </li>-->
+<!--    </ul>-->
+<!--  </div>-->
+<!--    <div class="d-flex">-->
+<!--  <div class="dropdown mr-1">-->
+<!--    <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">-->
+<!--      blog-->
+<!--    </button>-->
+<!--    <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">-->
+<!--      <a class="dropdown-item" href="#">Action</a>-->
+<!--      <a class="dropdown-item" href="#">Another action</a>-->
+<!--      <a class="dropdown-item" href="#">Something else here</a>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--  <div class="btn-group">-->
+<!--    <button type="button" class="btn btn-secondary">Pages</button>-->
+<!--    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">-->
+<!--      <span class="sr-only">Toggle Dropdown</span>-->
+<!--    </button>-->
+<!--    <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">-->
+<!--      <a class="dropdown-item" href="#">Action</a>-->
+<!--      <a class="dropdown-item" href="#">Another action</a>-->
+<!--      <a class="dropdown-item" href="#">Something else here</a>-->
+<!--      <div class="dropdown-divider"></div>-->
+<!--      <a class="dropdown-item" href="#">Separated link</a>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</nav>-->
+
+<!--    &lt;!&ndash; Optional JavaScript &ndash;&gt;-->
+<!--    &lt;!&ndash; jQuery first, then Popper.js, then Bootstrap JS &ndash;&gt;-->
+<!--    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>-->
+<!--    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>-->
+<!--  </body>-->
+<!--</html>-->
+<!--&lt;!&ndash;	<!DOCTYPE html>&ndash;&gt;-->
+<!--&lt;!&ndash;	<html lang="zxx" class="no-js">&ndash;&gt;-->
+<!--&lt;!&ndash;	<head>&ndash;&gt;-->
+<!--&lt;!&ndash;		&lt;!&ndash; Mobile Specific Meta &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">&ndash;&gt;-->
+<!--&lt;!&ndash;		&lt;!&ndash; Favicon&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">&ndash;&gt;-->
+<!--&lt;!&ndash;		<link rel="shortcut icon" href="img/fav.png">&ndash;&gt;-->
+<!--&lt;!&ndash;		&lt;!&ndash; Author Meta &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;		<meta name="author" content="colorlib">&ndash;&gt;-->
+<!--&lt;!&ndash;		&lt;!&ndash; Meta Description &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;		<meta name="description" content="">&ndash;&gt;-->
+<!--&lt;!&ndash;		&lt;!&ndash; Meta Keyword &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;		<meta name="keywords" content="">&ndash;&gt;-->
+<!--&lt;!&ndash;		&lt;!&ndash; meta character set &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;		<meta charset="UTF-8">&ndash;&gt;-->
+<!--&lt;!&ndash;		&lt;!&ndash; Site Title &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;		<title>Tifin service at home </title>&ndash;&gt;-->
+
+<!--&lt;!&ndash;		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">&ndash;&gt;-->
+<!--&lt;!&ndash;			&lt;!&ndash;&ndash;&gt;-->
+<!--&lt;!&ndash;			CSS&ndash;&gt;-->
+<!--&lt;!&ndash;			============================================= &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;			<link rel="stylesheet" href="css/linearicons.css">&ndash;&gt;-->
+<!--&lt;!&ndash;			<link rel="stylesheet" href="css/font-awesome.min.css">&ndash;&gt;-->
+<!--&lt;!&ndash;			<link rel="stylesheet" href="css/bootstrap.css">&ndash;&gt;-->
+<!--&lt;!&ndash;			<link rel="stylesheet" href="css/magnific-popup.css">&ndash;&gt;-->
+<!--&lt;!&ndash;			<link rel="stylesheet" href="css/jquery-ui.css">&ndash;&gt;-->
+<!--&lt;!&ndash;			<link rel="stylesheet" href="css/nice-select.css">&ndash;&gt;-->
+<!--&lt;!&ndash;			<link rel="stylesheet" href="css/animate.min.css">&ndash;&gt;-->
+<!--&lt;!&ndash;			<link rel="stylesheet" href="css/owl.carousel.css">&ndash;&gt;-->
+<!--&lt;!&ndash;			<link rel="stylesheet" href="css/main.css">&ndash;&gt;-->
+<!--&lt;!&ndash;		</head>&ndash;&gt;-->
+<!--&lt;!&ndash;		<body>&ndash;&gt;-->
+<!--&lt;!&ndash;			<header id="header">&ndash;&gt;-->
+<!--&lt;!&ndash;				<div class="header-top">&ndash;&gt;-->
+<!--&lt;!&ndash;					<div class="container">&ndash;&gt;-->
+<!--&lt;!&ndash;				  		<div class="row justify-content-center">&ndash;&gt;-->
+<!--&lt;!&ndash;						      <div id="logo">&ndash;&gt;-->
+<!--&lt;!&ndash;						        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>&ndash;&gt;-->
+<!--&lt;!&ndash;						      </div>&ndash;&gt;-->
+<!--&lt;!&ndash;				  		</div>&ndash;&gt;-->
+<!--&lt;!&ndash;					</div>&ndash;&gt;-->
+<!--&lt;!&ndash;				</div>&ndash;&gt;-->
+<!--&lt;!&ndash;				<div class="container main-menu">&ndash;&gt;-->
+<!--&lt;!&ndash;					<div class="row align-items-center justify-content-center d-flex">&ndash;&gt;-->
+<!--&lt;!&ndash;				      <nav id="nav-menu-container">&ndash;&gt;-->
+<!--&lt;!&ndash;				        <ul class="nav-menu">&ndash;&gt;-->
+<!--&lt;!&ndash;				          <li><a href="index.html">Home</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;				          <li><a href="about.html">About</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;				          <li><a href="menu.html">Menu</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;				          <li><a href="gallery.html">Gallery</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;				          <li class="menu-has-children"><a href="">Blog</a>&ndash;&gt;-->
+<!--&lt;!&ndash;				            <ul>&ndash;&gt;-->
+<!--&lt;!&ndash;				              <li><a href="blog-home.html">Blog Home</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;				              <li><a href="blog-single.html">Blog Single</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;				            </ul>&ndash;&gt;-->
+<!--&lt;!&ndash;				          </li>&ndash;&gt;-->
+<!--&lt;!&ndash;				          <li class="menu-has-children"><a href="">Pages</a>&ndash;&gt;-->
+<!--&lt;!&ndash;				            <ul>&ndash;&gt;-->
+<!--&lt;!&ndash;				            	  <li><a href="elements.html">Elements</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;						          <li class="menu-has-children"><a href="">Level 2 </a>&ndash;&gt;-->
+<!--&lt;!&ndash;						            <ul>&ndash;&gt;-->
+<!--&lt;!&ndash;						              <li><a href="#">Item One</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;						              <li><a href="#">Item Two</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;						            </ul>&ndash;&gt;-->
+<!--&lt;!&ndash;						          </li>&ndash;&gt;-->
+<!--&lt;!&ndash;				            </ul>&ndash;&gt;-->
+<!--&lt;!&ndash;				          </li>&ndash;&gt;-->
+<!--&lt;!&ndash;				          <li><a href="contact.html">Contact</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;				        </ul>&ndash;&gt;-->
+<!--&lt;!&ndash;				      </nav>&lt;!&ndash; #nav-menu-container &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;					</div>&ndash;&gt;-->
+<!--&lt;!&ndash;				</div>&ndash;&gt;-->
+<!--&lt;!&ndash;			</header>&lt;!&ndash; #header &ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;			&lt;!&ndash; start banner Area &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;			<section class="banner-area">&ndash;&gt;-->
+<!--&lt;!&ndash;				<div class="container">&ndash;&gt;-->
+<!--&lt;!&ndash;					<div class="row fullscreen align-items-center justify-content-between">&ndash;&gt;-->
+<!--&lt;!&ndash;						<div class="col-lg-12 banner-content">&ndash;&gt;-->
+<!--&lt;!&ndash;							<h6 class="text-white">Wide Options of Choice</h6>&ndash;&gt;-->
+<!--&lt;!&ndash;							<h1 class="text-white">Delicious Recipes</h1>&ndash;&gt;-->
+<!--&lt;!&ndash;							<p class="text-white">&ndash;&gt;-->
+<!--&lt;!&ndash;								inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women.&ndash;&gt;-->
+<!--&lt;!&ndash;							</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							<a href="#" class="primary-btn text-uppercase">Check Our Menu</a>&ndash;&gt;-->
+<!--&lt;!&ndash;						</div>&ndash;&gt;-->
+<!--&lt;!&ndash;					</div>&ndash;&gt;-->
+<!--&lt;!&ndash;				</div>&ndash;&gt;-->
+<!--&lt;!&ndash;			</section>&ndash;&gt;-->
+<!--&lt;!&ndash;			&lt;!&ndash; End banner Area &ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;			&lt;!&ndash; Start home-about Area &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;			<section class="home-about-area section-gap">&ndash;&gt;-->
+<!--&lt;!&ndash;				<div class="container">&ndash;&gt;-->
+<!--&lt;!&ndash;					<div class="row align-items-center">&ndash;&gt;-->
+<!--&lt;!&ndash;						<div class="col-lg-6 home-about-left">&ndash;&gt;-->
+<!--&lt;!&ndash;							<h1>About Our Story</h1>&ndash;&gt;-->
+<!--&lt;!&ndash;							<p>&ndash;&gt;-->
+<!--&lt;!&ndash;								Who are in extremely love with eco friendly system. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&ndash;&gt;-->
+<!--&lt;!&ndash;							</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							<a href="#" class="primary-btn">view full menu</a>&ndash;&gt;-->
+<!--&lt;!&ndash;						</div>&ndash;&gt;-->
+<!--&lt;!&ndash;						<div class="col-lg-6 home-about-right">&ndash;&gt;-->
+<!--&lt;!&ndash;							<img class="img-fluid" src="img/about-img.jpg" alt="">&ndash;&gt;-->
+<!--&lt;!&ndash;						</div>&ndash;&gt;-->
+<!--&lt;!&ndash;					</div>&ndash;&gt;-->
+<!--&lt;!&ndash;				</div>&ndash;&gt;-->
+<!--&lt;!&ndash;			</section>&ndash;&gt;-->
+<!--&lt;!&ndash;			&lt;!&ndash; End home-about Area &ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;			&lt;!&ndash; Start menu-area Area &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;            <section class="menu-area section-gap" id="menu">&ndash;&gt;-->
+<!--&lt;!&ndash;                <div class="container">&ndash;&gt;-->
+<!--&lt;!&ndash;					<div class="row d-flex justify-content-center">&ndash;&gt;-->
+<!--&lt;!&ndash;						<div class="menu-content pb-70 col-lg-8">&ndash;&gt;-->
+<!--&lt;!&ndash;							<div class="title text-center">&ndash;&gt;-->
+<!--&lt;!&ndash;								<h1 class="mb-10">What kind of Foods we serve for you</h1>&ndash;&gt;-->
+<!--&lt;!&ndash;								<p>Who are in extremely love with eco friendly system.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							</div>&ndash;&gt;-->
+<!--&lt;!&ndash;						</div>&ndash;&gt;-->
+<!--&lt;!&ndash;					</div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                    <ul class="filter-wrap filters col-lg-12 no-padding">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <li class="active" data-filter="*">All Menu</li>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <li data-filter=".breakfast">Breakfast</li>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <li data-filter=".lunch">Lunch</li>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <li data-filter=".dinner">Dinner</li>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <li data-filter=".budget-meal">Budget Meal</li>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <li data-filter=".buffet">Buffet</li>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </ul>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                    <div class="filters-content">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="row grid">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-md-6 all breakfast">&ndash;&gt;-->
+<!--&lt;!&ndash;								<div class="single-menu">&ndash;&gt;-->
+<!--&lt;!&ndash;									<div class="title-wrap d-flex justify-content-between">&ndash;&gt;-->
+<!--&lt;!&ndash;										<h4>Cappuccion</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;										<h4 class="price">$49</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;									</div>&ndash;&gt;-->
+<!--&lt;!&ndash;									<p>&ndash;&gt;-->
+<!--&lt;!&ndash;										Usage of the Internet is becoming more common due to rapid advance.&ndash;&gt;-->
+<!--&lt;!&ndash;									</p>&ndash;&gt;-->
+<!--&lt;!&ndash;								</div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-md-6 all dinner">&ndash;&gt;-->
+<!--&lt;!&ndash;								<div class="single-menu">&ndash;&gt;-->
+<!--&lt;!&ndash;									<div class="title-wrap d-flex justify-content-between">&ndash;&gt;-->
+<!--&lt;!&ndash;										<h4>Americano</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;										<h4 class="price">$49</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;									</div>&ndash;&gt;-->
+<!--&lt;!&ndash;									<p>&ndash;&gt;-->
+<!--&lt;!&ndash;										Usage of the Internet is becoming more common due to rapid advance.&ndash;&gt;-->
+<!--&lt;!&ndash;									</p>&ndash;&gt;-->
+<!--&lt;!&ndash;								</div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-md-6 all budget-meal">&ndash;&gt;-->
+<!--&lt;!&ndash;								<div class="single-menu">&ndash;&gt;-->
+<!--&lt;!&ndash;									<div class="title-wrap d-flex justify-content-between">&ndash;&gt;-->
+<!--&lt;!&ndash;										<h4>Macchiato</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;										<h4 class="price">$49</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;									</div>&ndash;&gt;-->
+<!--&lt;!&ndash;									<p>&ndash;&gt;-->
+<!--&lt;!&ndash;										Usage of the Internet is becoming more common due to rapid advance.&ndash;&gt;-->
+<!--&lt;!&ndash;									</p>&ndash;&gt;-->
+<!--&lt;!&ndash;								</div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-md-6 all breakfast">&ndash;&gt;-->
+<!--&lt;!&ndash;								<div class="single-menu">&ndash;&gt;-->
+<!--&lt;!&ndash;									<div class="title-wrap d-flex justify-content-between">&ndash;&gt;-->
+<!--&lt;!&ndash;										<h4>Mocha</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;										<h4 class="price">$49</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;									</div>&ndash;&gt;-->
+<!--&lt;!&ndash;									<p>&ndash;&gt;-->
+<!--&lt;!&ndash;										Usage of the Internet is becoming more common due to rapid advance.&ndash;&gt;-->
+<!--&lt;!&ndash;									</p>&ndash;&gt;-->
+<!--&lt;!&ndash;								</div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-md-6 all lunch">&ndash;&gt;-->
+<!--&lt;!&ndash;								<div class="single-menu">&ndash;&gt;-->
+<!--&lt;!&ndash;									<div class="title-wrap d-flex justify-content-between">&ndash;&gt;-->
+<!--&lt;!&ndash;										<h4>Piccolo Latte</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;										<h4 class="price">$49</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;									</div>&ndash;&gt;-->
+<!--&lt;!&ndash;									<p>&ndash;&gt;-->
+<!--&lt;!&ndash;										Usage of the Internet is becoming more common due to rapid advance.&ndash;&gt;-->
+<!--&lt;!&ndash;									</p>&ndash;&gt;-->
+<!--&lt;!&ndash;								</div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-md-6 all buffet">&ndash;&gt;-->
+<!--&lt;!&ndash;								<div class="single-menu">&ndash;&gt;-->
+<!--&lt;!&ndash;									<div class="title-wrap d-flex justify-content-between">&ndash;&gt;-->
+<!--&lt;!&ndash;										<h4>Ristretto</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;										<h4 class="price">$49</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;									</div>&ndash;&gt;-->
+<!--&lt;!&ndash;									<p>&ndash;&gt;-->
+<!--&lt;!&ndash;										Usage of the Internet is becoming more common due to rapid advance.&ndash;&gt;-->
+<!--&lt;!&ndash;									</p>&ndash;&gt;-->
+<!--&lt;!&ndash;								</div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;            </section>&ndash;&gt;-->
+<!--&lt;!&ndash;            &lt;!&ndash; End menu-area Area &ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;			&lt;!&ndash; Start reservation Area &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;			<section class="reservation-area section-gap relative">&ndash;&gt;-->
+<!--&lt;!&ndash;				<div class="overlay overlay-bg"></div>&ndash;&gt;-->
+<!--&lt;!&ndash;				<div class="container">&ndash;&gt;-->
+<!--&lt;!&ndash;					<div class="row justify-content-between align-items-center">&ndash;&gt;-->
+<!--&lt;!&ndash;						<div class="col-lg-6 reservation-left">&ndash;&gt;-->
+<!--&lt;!&ndash;							<h1 class="text-white">Reserve Your Seats&ndash;&gt;-->
+<!--&lt;!&ndash;							to Confirm if You Come&ndash;&gt;-->
+<!--&lt;!&ndash;							with Your Family</h1>&ndash;&gt;-->
+<!--&lt;!&ndash;							<p class="text-white pt-20">&ndash;&gt;-->
+<!--&lt;!&ndash;								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.&ndash;&gt;-->
+<!--&lt;!&ndash;							</p>&ndash;&gt;-->
+<!--&lt;!&ndash;						</div>&ndash;&gt;-->
+<!--&lt;!&ndash;						<div class="col-lg-5 reservation-right">&ndash;&gt;-->
+<!--&lt;!&ndash;							<form class="form-wrap text-center" action="#">&ndash;&gt;-->
+<!--&lt;!&ndash;								<input type="text" class="form-control" name="name" placeholder="Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'" >&ndash;&gt;-->
+<!--&lt;!&ndash;								<input type="email" class="form-control" name="email" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address'" >&ndash;&gt;-->
+<!--&lt;!&ndash;								<input type="text" class="form-control" name="phone" placeholder="Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'" >&ndash;&gt;-->
+<!--&lt;!&ndash;								<input type="text" class="form-control date-picker" name="date" placeholder="Select Date & time" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Select Date & time'" >&ndash;&gt;-->
+<!--&lt;!&ndash;								<div class="form-select" id="service-select">&ndash;&gt;-->
+<!--&lt;!&ndash;									<select>&ndash;&gt;-->
+<!--&lt;!&ndash;										<option data-display="">Select Event</option>&ndash;&gt;-->
+<!--&lt;!&ndash;										<option value="1">Event One</option>&ndash;&gt;-->
+<!--&lt;!&ndash;										<option value="2">Event Two</option>&ndash;&gt;-->
+<!--&lt;!&ndash;										<option value="3">Event Three</option>&ndash;&gt;-->
+<!--&lt;!&ndash;										<option value="4">Event Four</option>&ndash;&gt;-->
+<!--&lt;!&ndash;									</select>&ndash;&gt;-->
+<!--&lt;!&ndash;								</div>&ndash;&gt;-->
+<!--&lt;!&ndash;								<button class="primary-btn text-uppercase mt-20">Make Reservation</button>&ndash;&gt;-->
+<!--&lt;!&ndash;							</form>&ndash;&gt;-->
+<!--&lt;!&ndash;						</div>&ndash;&gt;-->
+<!--&lt;!&ndash;					</div>&ndash;&gt;-->
+<!--&lt;!&ndash;				</div>&ndash;&gt;-->
+<!--&lt;!&ndash;			</section>&ndash;&gt;-->
+<!--&lt;!&ndash;			&lt;!&ndash; End reservation Area &ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;			&lt;!&ndash; Start gallery-area Area &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;            <section class="gallery-area section-gap" id="gallery">&ndash;&gt;-->
+<!--&lt;!&ndash;                <div class="container">&ndash;&gt;-->
+<!--&lt;!&ndash;					<div class="row d-flex justify-content-center">&ndash;&gt;-->
+<!--&lt;!&ndash;						<div class="menu-content pb-70 col-lg-8">&ndash;&gt;-->
+<!--&lt;!&ndash;							<div class="title text-center">&ndash;&gt;-->
+<!--&lt;!&ndash;								<h1 class="mb-10">Food and Customer Gallery</h1>&ndash;&gt;-->
+<!--&lt;!&ndash;								<p>Who are in extremely love with eco friendly system.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							</div>&ndash;&gt;-->
+<!--&lt;!&ndash;						</div>&ndash;&gt;-->
+<!--&lt;!&ndash;					</div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                    <ul class="filter-wrap filters col-lg-12 no-padding">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <li class="active" data-filter="*">All Menu</li>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <li data-filter=".breakfast">Breakfast</li>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <li data-filter=".lunch">Lunch</li>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <li data-filter=".dinner">Dinner</li>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <li data-filter=".budget-meal">Budget Meal</li>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <li data-filter=".buffet">Buffet</li>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </ul>&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;                    <div class="filters-content">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="row grid">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-lg-4 col-md-6 col-sm-6 all breakfast">&ndash;&gt;-->
+<!--&lt;!&ndash;                            	<div class="single-gallery">&ndash;&gt;-->
+<!--&lt;!&ndash;                            		<img class="img-fluid" src="img/g1.jpg" alt="">&ndash;&gt;-->
+<!--&lt;!&ndash;                            	</div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-lg-4 col-md-6 col-sm-6 all dinner">&ndash;&gt;-->
+<!--&lt;!&ndash;                            	<div class="single-gallery">&ndash;&gt;-->
+<!--&lt;!&ndash;                            		<img class="img-fluid" src="img/g2.jpg" alt="">&ndash;&gt;-->
+<!--&lt;!&ndash;                            	</div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-lg-4 col-md-6 col-sm-6 all budget-meal">&ndash;&gt;-->
+<!--&lt;!&ndash;                            	<div class="single-gallery">&ndash;&gt;-->
+<!--&lt;!&ndash;                            		<img class="img-fluid" src="img/g3.jpg" alt="">&ndash;&gt;-->
+<!--&lt;!&ndash;                            	</div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-lg-4 col-md-6 col-sm-6 all breakfast">&ndash;&gt;-->
+<!--&lt;!&ndash;                            	<div class="single-gallery">&ndash;&gt;-->
+<!--&lt;!&ndash;                            		<img class="img-fluid" src="img/g4.jpg" alt="">&ndash;&gt;-->
+<!--&lt;!&ndash;                            	</div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-lg-4 col-md-6 col-sm-6 all lunch">&ndash;&gt;-->
+<!--&lt;!&ndash;                            	<div class="single-gallery">&ndash;&gt;-->
+<!--&lt;!&ndash;                            		<img class="img-fluid" src="img/g5.jpg" alt="">&ndash;&gt;-->
+<!--&lt;!&ndash;                            	</div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-lg-4 col-md-6 col-sm-6 all buffet">&ndash;&gt;-->
+<!--&lt;!&ndash;                            	<div class="single-gallery">&ndash;&gt;-->
+<!--&lt;!&ndash;                            		<img class="img-fluid" src="img/g6.jpg" alt="">&ndash;&gt;-->
+<!--&lt;!&ndash;                            	</div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;            </section>&ndash;&gt;-->
+<!--&lt;!&ndash;            &lt;!&ndash; End gallery-area Area &ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;			&lt;!&ndash; Start review Area &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;			<section class="review-area section-gap">&ndash;&gt;-->
+<!--&lt;!&ndash;				<div class="container">&ndash;&gt;-->
+<!--&lt;!&ndash;					<div class="row">&ndash;&gt;-->
+<!--&lt;!&ndash;						<div class="active-review-carusel">&ndash;&gt;-->
+<!--&lt;!&ndash;							<div class="single-review">&ndash;&gt;-->
+<!--&lt;!&ndash;								<img src="img/user.png" alt="">&ndash;&gt;-->
+<!--&lt;!&ndash;								<h4>Hulda Sutton</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;								<div class="star">&ndash;&gt;-->
+<!--&lt;!&ndash;									<span class="fa fa-star checked"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;									<span class="fa fa-star checked"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;									<span class="fa fa-star checked"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;									<span class="fa fa-star checked"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;									<span class="fa fa-star"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;								</div>&ndash;&gt;-->
+<!--&lt;!&ndash;								<p>&ndash;&gt;-->
+<!--&lt;!&ndash;									“Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.”&ndash;&gt;-->
+<!--&lt;!&ndash;								</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							</div>&ndash;&gt;-->
+<!--&lt;!&ndash;							<div class="single-review">&ndash;&gt;-->
+<!--&lt;!&ndash;								<img src="img/user.png" alt="">&ndash;&gt;-->
+<!--&lt;!&ndash;								<h4>Hulda Sutton</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;								<div class="star">&ndash;&gt;-->
+<!--&lt;!&ndash;									<span class="fa fa-star checked"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;									<span class="fa fa-star checked"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;									<span class="fa fa-star checked"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;									<span class="fa fa-star checked"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;									<span class="fa fa-star"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;								</div>&ndash;&gt;-->
+<!--&lt;!&ndash;								<p>&ndash;&gt;-->
+<!--&lt;!&ndash;									“Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.”&ndash;&gt;-->
+<!--&lt;!&ndash;								</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							</div>&ndash;&gt;-->
+<!--&lt;!&ndash;							<div class="single-review">&ndash;&gt;-->
+<!--&lt;!&ndash;								<img src="img/user.png" alt="">&ndash;&gt;-->
+<!--&lt;!&ndash;								<h4>Hulda Sutton</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;								<div class="star">&ndash;&gt;-->
+<!--&lt;!&ndash;									<span class="fa fa-star checked"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;									<span class="fa fa-star checked"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;									<span class="fa fa-star checked"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;									<span class="fa fa-star checked"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;									<span class="fa fa-star"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;								</div>&ndash;&gt;-->
+<!--&lt;!&ndash;								<p>&ndash;&gt;-->
+<!--&lt;!&ndash;									“Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.”&ndash;&gt;-->
+<!--&lt;!&ndash;								</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							</div>&ndash;&gt;-->
+<!--&lt;!&ndash;							<div class="single-review">&ndash;&gt;-->
+<!--&lt;!&ndash;								<img src="img/user.png" alt="">&ndash;&gt;-->
+<!--&lt;!&ndash;								<h4>Hulda Sutton</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;								<div class="star">&ndash;&gt;-->
+<!--&lt;!&ndash;									<span class="fa fa-star checked"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;									<span class="fa fa-star checked"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;									<span class="fa fa-star checked"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;									<span class="fa fa-star checked"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;									<span class="fa fa-star"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;								</div>&ndash;&gt;-->
+<!--&lt;!&ndash;								<p>&ndash;&gt;-->
+<!--&lt;!&ndash;									“Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.”&ndash;&gt;-->
+<!--&lt;!&ndash;								</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							</div>&ndash;&gt;-->
+<!--&lt;!&ndash;						</div>&ndash;&gt;-->
+<!--&lt;!&ndash;					</div>&ndash;&gt;-->
+<!--&lt;!&ndash;				</div>&ndash;&gt;-->
+<!--&lt;!&ndash;			</section>&ndash;&gt;-->
+<!--&lt;!&ndash;			&lt;!&ndash; End review Area &ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;			&lt;!&ndash; Start blog Area &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;			<section class="blog-area section-gap" id="blog">&ndash;&gt;-->
+<!--&lt;!&ndash;				<div class="container">&ndash;&gt;-->
+<!--&lt;!&ndash;					<div class="row d-flex justify-content-center">&ndash;&gt;-->
+<!--&lt;!&ndash;						<div class="menu-content pb-70 col-lg-8">&ndash;&gt;-->
+<!--&lt;!&ndash;							<div class="title text-center">&ndash;&gt;-->
+<!--&lt;!&ndash;								<h1 class="mb-10">Latest From Our Blog</h1>&ndash;&gt;-->
+<!--&lt;!&ndash;								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							</div>&ndash;&gt;-->
+<!--&lt;!&ndash;						</div>&ndash;&gt;-->
+<!--&lt;!&ndash;					</div>&ndash;&gt;-->
+<!--&lt;!&ndash;					<div class="row">&ndash;&gt;-->
+<!--&lt;!&ndash;						<div class="col-lg-3 col-md-6 col-sm-6 single-blog">&ndash;&gt;-->
+<!--&lt;!&ndash;							<div class="thumb">&ndash;&gt;-->
+<!--&lt;!&ndash;								<img class="img-fluid" src="img/b1.jpg" alt="">&ndash;&gt;-->
+<!--&lt;!&ndash;							</div>&ndash;&gt;-->
+<!--&lt;!&ndash;							<p class="date">10 Jan 2018</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							<a href="blog-single.html"><h4>Cooking Perfect Fried Rice&ndash;&gt;-->
+<!--&lt;!&ndash;							in minutes</h4></a>&ndash;&gt;-->
+<!--&lt;!&ndash;							<p>&ndash;&gt;-->
+<!--&lt;!&ndash;								inappropriate behavior ipsum dolor sit amet, consectetur.&ndash;&gt;-->
+<!--&lt;!&ndash;							</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							<div class="meta-bottom d-flex justify-content-between">&ndash;&gt;-->
+<!--&lt;!&ndash;								<p><span class="lnr lnr-heart"></span> 15 Likes</p>&ndash;&gt;-->
+<!--&lt;!&ndash;								<p><span class="lnr lnr-bubble"></span> 02 Comments</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							</div>&ndash;&gt;-->
+<!--&lt;!&ndash;						</div>&ndash;&gt;-->
+<!--&lt;!&ndash;						<div class="col-lg-3 col-md-6 col-sm-6 single-blog">&ndash;&gt;-->
+<!--&lt;!&ndash;							<div class="thumb">&ndash;&gt;-->
+<!--&lt;!&ndash;								<img class="img-fluid" src="img/b2.jpg" alt="">&ndash;&gt;-->
+<!--&lt;!&ndash;							</div>&ndash;&gt;-->
+<!--&lt;!&ndash;							<p class="date">10 Jan 2018</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							<a href="blog-single.html"><h4>Secret of making Heart&ndash;&gt;-->
+<!--&lt;!&ndash;							Shaped eggs</h4></a>&ndash;&gt;-->
+<!--&lt;!&ndash;							<p>&ndash;&gt;-->
+<!--&lt;!&ndash;								inappropriate behavior ipsum dolor sit amet, consectetur.&ndash;&gt;-->
+<!--&lt;!&ndash;							</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							<div class="meta-bottom d-flex justify-content-between">&ndash;&gt;-->
+<!--&lt;!&ndash;								<p><span class="lnr lnr-heart"></span> 15 Likes</p>&ndash;&gt;-->
+<!--&lt;!&ndash;								<p><span class="lnr lnr-bubble"></span> 02 Comments</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							</div>&ndash;&gt;-->
+<!--&lt;!&ndash;						</div>&ndash;&gt;-->
+<!--&lt;!&ndash;						<div class="col-lg-3 col-md-6 col-sm-6 single-blog">&ndash;&gt;-->
+<!--&lt;!&ndash;							<div class="thumb">&ndash;&gt;-->
+<!--&lt;!&ndash;								<img class="img-fluid" src="img/b3.jpg" alt="">&ndash;&gt;-->
+<!--&lt;!&ndash;							</div>&ndash;&gt;-->
+<!--&lt;!&ndash;							<p class="date">10 Jan 2018</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							<a href="blog-single.html"><h4>How to check steak if&ndash;&gt;-->
+<!--&lt;!&ndash;							it is tender or not</h4></a>&ndash;&gt;-->
+<!--&lt;!&ndash;							<p>&ndash;&gt;-->
+<!--&lt;!&ndash;								inappropriate behavior ipsum dolor sit amet, consectetur.&ndash;&gt;-->
+<!--&lt;!&ndash;							</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							<div class="meta-bottom d-flex justify-content-between">&ndash;&gt;-->
+<!--&lt;!&ndash;								<p><span class="lnr lnr-heart"></span> 15 Likes</p>&ndash;&gt;-->
+<!--&lt;!&ndash;								<p><span class="lnr lnr-bubble"></span> 02 Comments</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							</div>&ndash;&gt;-->
+<!--&lt;!&ndash;						</div>&ndash;&gt;-->
+<!--&lt;!&ndash;						<div class="col-lg-3 col-md-6 col-sm-6 single-blog">&ndash;&gt;-->
+<!--&lt;!&ndash;							<div class="thumb">&ndash;&gt;-->
+<!--&lt;!&ndash;								<img class="img-fluid" src="img/b4.jpg" alt="">&ndash;&gt;-->
+<!--&lt;!&ndash;							</div>&ndash;&gt;-->
+<!--&lt;!&ndash;							<p class="date">10 Jan 2018</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							<a href="blog-single.html"><h4>Seaseme and black seed&ndash;&gt;-->
+<!--&lt;!&ndash;							Flavored Bun Rocks</h4></a>&ndash;&gt;-->
+<!--&lt;!&ndash;							<p>&ndash;&gt;-->
+<!--&lt;!&ndash;								inappropriate behavior ipsum dolor sit amet, consectetur.&ndash;&gt;-->
+<!--&lt;!&ndash;							</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							<div class="meta-bottom d-flex justify-content-between">&ndash;&gt;-->
+<!--&lt;!&ndash;								<p><span class="lnr lnr-heart"></span> 15 Likes</p>&ndash;&gt;-->
+<!--&lt;!&ndash;								<p><span class="lnr lnr-bubble"></span> 02 Comments</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							</div>&ndash;&gt;-->
+<!--&lt;!&ndash;						</div>&ndash;&gt;-->
+<!--&lt;!&ndash;					</div>&ndash;&gt;-->
+<!--&lt;!&ndash;				</div>&ndash;&gt;-->
+<!--&lt;!&ndash;			</section>&ndash;&gt;-->
+<!--&lt;!&ndash;			&lt;!&ndash; End blog Area &ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;			&lt;!&ndash; start footer Area &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;			<footer class="footer-area">&ndash;&gt;-->
+<!--&lt;!&ndash;				<div class="footer-widget-wrap">&ndash;&gt;-->
+<!--&lt;!&ndash;					<div class="container">&ndash;&gt;-->
+<!--&lt;!&ndash;						<div class="row section-gap">&ndash;&gt;-->
+<!--&lt;!&ndash;							<div class="col-lg-4  col-md-6 col-sm-6">&ndash;&gt;-->
+<!--&lt;!&ndash;								<div class="single-footer-widget">&ndash;&gt;-->
+<!--&lt;!&ndash;									<h4>Opening Hours</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;									<ul class="hr-list">&ndash;&gt;-->
+<!--&lt;!&ndash;										<li class="d-flex justify-content-between">&ndash;&gt;-->
+<!--&lt;!&ndash;											<span>Monday - Friday</span> <span>08.00 am - 10.00 pm</span>&ndash;&gt;-->
+<!--&lt;!&ndash;										</li>&ndash;&gt;-->
+<!--&lt;!&ndash;										<li class="d-flex justify-content-between">&ndash;&gt;-->
+<!--&lt;!&ndash;											<span>Saturday</span> <span>08.00 am - 10.00 pm</span>&ndash;&gt;-->
+<!--&lt;!&ndash;										</li>&ndash;&gt;-->
+<!--&lt;!&ndash;										<li class="d-flex justify-content-between">&ndash;&gt;-->
+<!--&lt;!&ndash;											<span>Sunday</span> <span>08.00 am - 10.00 pm</span>&ndash;&gt;-->
+<!--&lt;!&ndash;										</li>&ndash;&gt;-->
+<!--&lt;!&ndash;									</ul>&ndash;&gt;-->
+<!--&lt;!&ndash;								</div>&ndash;&gt;-->
+<!--&lt;!&ndash;							</div>&ndash;&gt;-->
+<!--&lt;!&ndash;							<div class="col-lg-4  col-md-6 col-sm-6">&ndash;&gt;-->
+<!--&lt;!&ndash;								<div class="single-footer-widget">&ndash;&gt;-->
+<!--&lt;!&ndash;									<h4>Contact Us</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;									<p>&ndash;&gt;-->
+<!--&lt;!&ndash;										56/8, los angeles, rochy beach, Santa monica, United states of america - 1205&ndash;&gt;-->
+<!--&lt;!&ndash;									</p>&ndash;&gt;-->
+<!--&lt;!&ndash;									<p class="number">&ndash;&gt;-->
+<!--&lt;!&ndash;										012-6532-568-9746 <br>&ndash;&gt;-->
+<!--&lt;!&ndash;										012-6532-569-9748&ndash;&gt;-->
+<!--&lt;!&ndash;									</p>&ndash;&gt;-->
+<!--&lt;!&ndash;								</div>&ndash;&gt;-->
+<!--&lt;!&ndash;							</div>&ndash;&gt;-->
+<!--&lt;!&ndash;							<div class="col-lg-4  col-md-6 col-sm-6">&ndash;&gt;-->
+<!--&lt;!&ndash;								<div class="single-footer-widget">&ndash;&gt;-->
+<!--&lt;!&ndash;									<h4>Newsletter</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;									<p>You can trust us. we only send promo offers, not a single spam.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;									<div class="d-flex flex-row" id="mc_embed_signup">&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;										  <form class="navbar-form" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get">&ndash;&gt;-->
+<!--&lt;!&ndash;										    <div class="input-group add-on align-items-center d-flex">&ndash;&gt;-->
+<!--&lt;!&ndash;										      	<input class="form-control" name="EMAIL" placeholder="Your Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email address'" required="" type="email">&ndash;&gt;-->
+<!--&lt;!&ndash;												<div style="position: absolute; left: -5000px;">&ndash;&gt;-->
+<!--&lt;!&ndash;													<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">&ndash;&gt;-->
+<!--&lt;!&ndash;												</div>&ndash;&gt;-->
+<!--&lt;!&ndash;										      <div class="input-group-btn">&ndash;&gt;-->
+<!--&lt;!&ndash;										        <button class="genric-btn"><span class="lnr lnr-arrow-right"></span></button>&ndash;&gt;-->
+<!--&lt;!&ndash;										      </div>&ndash;&gt;-->
+<!--&lt;!&ndash;										    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;										      <div class="info mt-20"></div>&ndash;&gt;-->
+<!--&lt;!&ndash;										  </form>&ndash;&gt;-->
+<!--&lt;!&ndash;									</div>&ndash;&gt;-->
+<!--&lt;!&ndash;								</div>&ndash;&gt;-->
+<!--&lt;!&ndash;							</div>&ndash;&gt;-->
+<!--&lt;!&ndash;						</div>&ndash;&gt;-->
+<!--&lt;!&ndash;					</div>&ndash;&gt;-->
+<!--&lt;!&ndash;				</div>&ndash;&gt;-->
+<!--&lt;!&ndash;				<div class="footer-bottom-wrap">&ndash;&gt;-->
+<!--&lt;!&ndash;					<div class="container">&ndash;&gt;-->
+<!--&lt;!&ndash;						<div class="row footer-bottom d-flex justify-content-between align-items-center">&ndash;&gt;-->
+<!--&lt;!&ndash;							<p class="col-lg-8 col-mdcol-sm-6 -6 footer-text m-0">&lt;!&ndash; Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash; Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. &ndash;&gt;</p>&ndash;&gt;-->
+<!--&lt;!&ndash;							<ul class="col-lg-4 col-mdcol-sm-6 -6 social-icons text-right">&ndash;&gt;-->
+<!--&lt;!&ndash;	                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;	                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;	                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;	                            <li><a href="#"><i class="fa fa-behance"></i></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;	                        </ul>&ndash;&gt;-->
+<!--&lt;!&ndash;						</div>&ndash;&gt;-->
+<!--&lt;!&ndash;					</div>&ndash;&gt;-->
+<!--&lt;!&ndash;				</div>&ndash;&gt;-->
+<!--&lt;!&ndash;			</footer>&ndash;&gt;-->
+<!--&lt;!&ndash;			&lt;!&ndash; End footer Area &ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;			<script src="js/vendor/jquery-2.2.4.min.js"></script>&ndash;&gt;-->
+<!--&lt;!&ndash;			<script src="js/popper.min.js"></script>&ndash;&gt;-->
+<!--&lt;!&ndash;			<script src="js/vendor/bootstrap.min.js"></script>&ndash;&gt;-->
+<!--&lt;!&ndash;			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>&ndash;&gt;-->
+<!--&lt;!&ndash; 			<script src="js/jquery-ui.js"></script>&ndash;&gt;-->
+<!--&lt;!&ndash;  			<script src="js/easing.min.js"></script>&ndash;&gt;-->
+<!--&lt;!&ndash;			<script src="js/hoverIntent.js"></script>&ndash;&gt;-->
+<!--&lt;!&ndash;			<script src="js/superfish.min.js"></script>&ndash;&gt;-->
+<!--&lt;!&ndash;			<script src="js/jquery.ajaxchimp.min.js"></script>&ndash;&gt;-->
+<!--&lt;!&ndash;			<script src="js/jquery.magnific-popup.min.js"></script>&ndash;&gt;-->
+<!--&lt;!&ndash;			<script src="js/jquery.nice-select.min.js"></script>&ndash;&gt;-->
+<!--&lt;!&ndash;			<script src="js/owl.carousel.min.js"></script>&ndash;&gt;-->
+<!--&lt;!&ndash;            <script src="js/isotope.pkgd.min.js"></script>&ndash;&gt;-->
+<!--&lt;!&ndash;			<script src="js/mail-script.js"></script>&ndash;&gt;-->
+<!--&lt;!&ndash;			<script src="js/main.js"></script>&ndash;&gt;-->
+<!--&lt;!&ndash;		</body>&ndash;&gt;-->
+<!--&lt;!&ndash;	</html>&ndash;&gt;-->
